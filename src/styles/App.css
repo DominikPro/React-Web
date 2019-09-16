@@ -20,6 +20,7 @@ main {
 
 aside {
   min-width: 240px;
+  color: black;
 }
 
 section.page {
