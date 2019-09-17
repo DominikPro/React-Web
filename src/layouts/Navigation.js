@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/Navigation.css";
 const list = [
   { name: "start", path: "/", exact: true },
-  { name: "produkty", path: "/product" },
+  { name: "produkty", path: "/products" },
   { name: "kontakt", path: "/contact" },
   { name: "panel admina", path: "/admin" }
 ];
