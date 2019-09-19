@@ -11,14 +11,14 @@ const articles = [
   {
     id: 2,
     title: "Czym jest teoria strun",
-    author: "Jan Nowak",
+    author: "Anna Kowalska",
     text:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum delectus incidunt unde qui expedita voluptas minus, debitis nesciunt adipisci rem tempore deleniti ipsam quam aspernatur dolorem dolorum sed nisi porro."
   },
   {
     id: 3,
     title: "Czym jest teoria strun",
-    author: "Jan Nowak",
+    author: "Łukasz Kwiatkowski",
     text:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum delectus incidunt unde qui expedita voluptas minus, debitis nesciunt adipisci rem tempore deleniti ipsam quam aspernatur dolorem dolorum sed nisi porro."
   }
