@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage.js";
 import ProductsPage from "../pages/ProductsPage.js";
 import ContactPage from "../pages/ContactPage.js";
 import AdminPage from "../pages/AdminPage.js";
+import LoginPage from "../pages/LoginPage.js";
 import ErrorPage from "../pages/ErrorPage.js";
 
 const Page = () => {
@@ -14,6 +15,7 @@ const Page = () => {
         <Route path="/products" exact component={ProductsPage}></Route>
         <Route path="/contact" exact component={ContactPage}></Route>
         <Route path="/admin" exact component={AdminPage}></Route>
+        <Route path="/login" exact component={LoginPage}></Route>
         <Route component={ErrorPage}></Route>
       </Switch>
     </>

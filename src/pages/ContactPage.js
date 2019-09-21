@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/ContactPage.css";
+import "../styles/Button.css";
 import { Prompt } from "react-router-dom";
 
 class ContactPage extends React.Component {
@@ -27,7 +28,7 @@ class ContactPage extends React.Component {
             onChange={this.handleChange}
             placeholder="Wpisz wiadomość..."
           ></textarea>
-          <button>Wyślij</button>
+          <button className="buttonUniversal">Wyślij</button>
         </form>
         <Prompt
           when={this.state.value}
