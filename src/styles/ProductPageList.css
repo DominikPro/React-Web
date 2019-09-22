@@ -1,0 +1,21 @@
+div ul {
+  list-style: none;
+}
+
+.products ul li a {
+  max-width: 20vw;
+  display: block;
+  text-decoration: none;
+  color: black;
+  transition: 0.15s;
+  text-transform: uppercase;
+  margin: 30px 20px;
+  border-bottom: solid 2px black;
+  padding: 5px;
+}
+
+.products ul li a:hover {
+  color: blue;
+  letter-spacing: 1px;
+  transform: translateX(2px);
+}

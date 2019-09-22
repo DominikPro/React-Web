@@ -10,18 +10,3 @@
   font-family: "Open Sans", sans-serif;
   padding: 10px;
 }
-.buttonUniversal {
-  display: block;
-  background-color: #ffffff;
-  border: solid 1px black;
-  font-size: 22px;
-  padding: 10px 30px;
-  transition: 0.15s;
-  margin: 0 40% 0 auto;
-}
-
-.buttonUniversal:hover {
-  cursor: pointer;
-  color: green;
-  background-color: black;
-}
